@@ -1,0 +1,120 @@
+########################################
+# OS / Editor / Misc
+########################################
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+*.tmp
+*.bak
+*.class
+*.pyc
+.history/
+.migrate_working_dir/
+.atom/
+.svn/
+.swiftpm/
+
+########################################
+# IntelliJ / Android Studio / VSCode
+########################################
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+########################################
+# Flutter / Dart
+########################################
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+**/doc/api/
+coverage/
+
+########################################
+# Flutter iOS
+########################################
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/.symlinks/
+ios/Runner/GeneratedPluginRegistrant.*
+
+########################################
+# Flutter Android
+########################################
+android/.gradle/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/app/*.keystore
+android/key.properties
+
+########################################
+# Flutter Web
+########################################
+web/.dart_tool/
+web/build/
+
+########################################
+# CodeIgniter 4 (Backend)
+########################################
+
+# Environment
+backend/.env
+backend/.env.*
+
+# Writable (cache, logs, session)
+backend/writable/*
+!backend/writable/.htaccess
+
+# CI4 cache (kalau ada custom path)
+backend/app/Config/Cache.php
+
+########################################
+# PHP / Composer
+########################################
+composer.lock
+vendor/
+
+########################################
+# Database / Backup
+########################################
+*.sql
+*.sqlite
+*.db
+
+########################################
+# Docker (optional)
+########################################
+.dockerignore
+docker-compose.override.yml
+
+
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+########################################
+# Security
+########################################
+*.key
+*.pem
+*.crt
+
+########################################
+# Test / Temp
+########################################
+tmp/
+temp/
+.cache/
+
+########################################
+# END
+########################################
